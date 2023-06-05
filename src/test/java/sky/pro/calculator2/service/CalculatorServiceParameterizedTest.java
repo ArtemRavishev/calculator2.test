@@ -40,7 +40,7 @@ public class CalculatorServiceParameterizedTest {
 
     public static Stream<Arguments> divideTestParams() {
         return Stream.of(
-                Arguments.of(3, 3, 1),
+                Arguments.of(4, 4, 1),
                 Arguments.of(-3, 3, -1),
                 Arguments.of(0, 3, 0)
         );
